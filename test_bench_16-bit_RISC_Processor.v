@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 `include "Parameter.v"
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Verilog testbench code to test the processor
@@ -30,7 +30,7 @@ endmodule
 
 `ifndef PARAMETER_H_
 `define PARAMETER_H_
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Parameter file
