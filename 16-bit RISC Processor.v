@@ -1,5 +1,5 @@
 `include "Parameter.v"
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Verilog code for Instruction Memory
@@ -19,7 +19,7 @@ module Instruction_Memory(
 endmodule
 
 `timescale 1ns / 1ps
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Verilog code for register file
@@ -60,7 +60,7 @@ endmodule
 
 
 `include "Parameter.v"
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Verilog code for data Memory
@@ -106,7 +106,7 @@ initial
 
 endmodule
 
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Verilog code for ALU
@@ -140,7 +140,7 @@ assign zero = (result==16'd0) ? 1'b1: 1'b0;
 endmodule
 
 `timescale 1ns / 1ps
-//fpga4student.com: FPGA projects, Verilog projects, VHDL projects
+
 // Verilog code for 16-bit RISC processor
 // ALU_Control Verilog code
 module alu_control( ALU_Cnt, ALUOp, Opcode);
@@ -166,7 +166,7 @@ module alu_control( ALU_Cnt, ALUOp, Opcode);
 endmodule
 
 `timescale 1ns / 1ps
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Verilog code for Data Path of the processor
@@ -265,7 +265,7 @@ module Datapath_Unit(
 endmodule
 
 `timescale 1ns / 1ps
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Verilog code for Control Unit 
@@ -466,7 +466,7 @@ begin
 endmodule
 
 `timescale 1ns / 1ps
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 
@@ -512,7 +512,7 @@ endmodule
 
 `ifndef PARAMETER_H_
 `define PARAMETER_H_
-// fpga4student.com 
+
 // FPGA projects, VHDL projects, Verilog projects 
 // Verilog code for RISC Processor 
 // Parameter file
